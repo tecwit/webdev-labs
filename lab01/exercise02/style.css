@@ -10,15 +10,37 @@ body {
 Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
+section {
 
+    box-sizing: border-box;
+    border: dotted 1px #CCC; 
+    width: 50vh;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    display: inline-block;
+
+}
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
+
+
 
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
 
-    
+    section {
+
+        display: block;
+
+    }
+
 }
