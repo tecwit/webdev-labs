@@ -67,7 +67,7 @@ WHERE user_id = 26 AND (post_id = 219 OR post_id = 220 OR post_id = 221);
 
 -- Exercise 13
 UPDATE users
-SET email = 'cyoung2022@gmail.c`om'
+SET email = 'cyoung2022@gmail.com'
 WHERE id = 26;
 
 
